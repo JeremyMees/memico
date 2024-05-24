@@ -19,7 +19,7 @@ whenever(sliderVisible, () => {
     <h2 data-aos="fade-right">
       Wat mensen van ons vinden
     </h2>
-    <div class="grid grid-cols-3 gap-6">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div
         v-for="({ review, name, image }, i) in reviews"
         :key="name"
