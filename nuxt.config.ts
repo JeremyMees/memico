@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxt/image',
     'nuxt-swiper',
+    'nuxt-aos',
   ],
   router: {
     options: { scrollBehaviorType: 'smooth' },
@@ -20,6 +21,10 @@ export default defineNuxtConfig({
   tailwindcss: {
     cssPath: './assets/css/tailwind.css',
     viewer: false,
+  },
+  aos: {
+    once: true,
+    duration: 500,
   },
   eslint: {
     config: { stylistic: true },

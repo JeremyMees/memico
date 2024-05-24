@@ -24,7 +24,10 @@ if (import.meta.client) {
     ref="nav"
     class="flex flex-col"
   >
-    <div class="flex items-center justify-between gap-x-10 container py-5 border-b border-slate-900">
+    <div
+      class="flex items-center justify-between gap-x-10 container py-5"
+      data-aos="fade-down"
+    >
       <NuxtImg
         src="/logo.webp"
         alt="MEMICO"

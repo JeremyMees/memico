@@ -12,7 +12,10 @@ whenever(sliderVisible, () => {
 
 <template>
   <div id="realisaties">
-    <h2 class="container pb-6">
+    <h2
+      class="container pb-6"
+      data-aos="fade-right"
+    >
       Realisaties
     </h2>
     <Swiper
@@ -47,14 +50,22 @@ whenever(sliderVisible, () => {
 .swiper-button-prev, .swiper-button-next {
   --swiper-navigation-size: 20px;
 
-  @apply icon-btn text-white py-6 px-5 shadow-md;
+  @apply bg-slate-900 text-white p-4 font-bold rounded-md w-fit  py-6 px-5 shadow-md;
 }
 
 .swiper-slide-active {
-  @apply animate-to-color;
+  animation: toColor 1s;
 }
 
 .swiper-slide:not(.swiper-slide-active) {
   filter: grayscale(100%);
+}
+
+@keyframes toColor {
+  0%    { filter: grayscale(100%); }
+  25%   { filter: grayscale(75%); }
+  50%   { filter: grayscale(50%); }
+  75%   { filter: grayscale(25%); }
+  100%  { filter: grayscale(0%); }
 }
 </style>

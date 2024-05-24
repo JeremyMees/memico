@@ -6,10 +6,13 @@
         alt="MEMICO"
         sizes="200px"
         class="sm:w-[200px]"
+        data-aos="fade-right"
       />
       <div
         id="contact"
         class="flex-1 flex flex-col min-w-[150px]"
+        data-aos="fade-up"
+        data-aos-delay="100"
       >
         <p class="font-bold mb-3">
           Contact
@@ -35,7 +38,11 @@
           </a>
         </div>
       </div>
-      <div class="flex-1 flex flex-col min-w-[150px]">
+      <div
+        class="flex-1 flex flex-col min-w-[150px]"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
         <p class="font-bold mb-3">
           Volg ons op
         </p>
