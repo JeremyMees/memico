@@ -1,0 +1,27 @@
+[
+  {
+    "name": "J. Mees",
+    "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe pariatur officia magnam",
+    "image": "/Reviews/IMG-20240521-WA0019_K5VULk81Y.jpg"
+  },
+  {
+    "name": "M. Mees",
+    "review": "Ik heb een gracht gevuld met beton.",
+    "image": "/Reviews/IMG-20240521-WA0013_FwvC6nRkY.jpg"
+  },
+  {
+    "name": "L. Keuninckx",
+    "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe pariatur officia magnam, ex ullam porro sapiente. Quibusdam laboriosam culpa itaque doloribus deserunt non aliquam. Placeat sit nostrum ut recusandae doloremque.",
+    "image": "/Reviews/IMG-20240521-WA0038_cFtWsQ9UK.jpg"
+  },
+  {
+    "name": "Cinderella",
+    "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe pariatur officia magnam, ex ullam porro sapiente. Quibusdam laboriosam culpa itaque doloribus deserunt non aliquam. Placeat sit nostrum ut recusandae doloremque.",
+    "image": "/Reviews/IMG-20240521-WA0028_QQ_TsH-iA.jpg"
+  },
+  {
+    "name": "J. Dohn",
+    "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe pariatur officia magnam, ex ullam porro sapiente. Quibusdam laboriosam culpa itaque doloribus deserunt non aliquam. Placeat sit nostrum ut recusandae doloremque.",
+    "image": "/Reviews/IMG-20240521-WA0009_zISPT2FUp.jpg"
+  }
+]

@@ -29,7 +29,7 @@ whenever(sliderVisible, () => {
       <SwiperSlide
         v-for="image in images"
         :key="image"
-        class="max-w-[60vw] aspect-video ml-10"
+        class="max-w-[90vw] sm:max-w-[60vw] aspect-video mx-2 sm:mx-5"
       >
         <NuxtImg
           :src="`/Realisaties/${image}`"
@@ -48,5 +48,13 @@ whenever(sliderVisible, () => {
   --swiper-navigation-size: 20px;
 
   @apply icon-btn text-white py-6 px-5 shadow-md;
+}
+
+.swiper-slide-active {
+  @apply animate-to-color;
+}
+
+.swiper-slide:not(.swiper-slide-active) {
+  filter: grayscale(100%);
 }
 </style>

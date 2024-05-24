@@ -44,10 +44,10 @@ if (import.meta.client) {
           </li>
           <li>
             <a
-              href="#ervaringen"
+              href="#reviews"
               class="nav-link"
             >
-              Ervaringen
+              Reviews
             </a>
           </li>
         </ul>
@@ -86,11 +86,11 @@ if (import.meta.client) {
             Realisaties
           </a>
           <a
-            href="#ervaringen"
+            href="#reviews"
             class="nav-link"
             @click="mobileNavOpen = false"
           >
-            Ervaringen
+            Reviews
           </a>
           <a
             href="#contact"

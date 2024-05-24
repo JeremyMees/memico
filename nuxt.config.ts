@@ -25,7 +25,7 @@ export default defineNuxtConfig({
     config: { stylistic: true },
   },
   image: {
-    quality: 80,
+    quality: 90,
     provider: 'imagekit',
     imagekit: { baseURL: 'https://ik.imagekit.io/c2es1qasw/Memico' },
   },

@@ -4,7 +4,7 @@
       src="/hero.webp"
       alt="Hero image"
       sizes="sm:100vw"
-      class="w-full h-[400px] object-cover animate-to-color"
+      class="w-full h-[400px] object-cover grayscale"
     />
     <div class="absolute inset-0 bg-black/20">
       <div class="container flex flex-col h-full justify-center text-white">
