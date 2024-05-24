@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-slate-900 text-white py-4 px-10 font-bold rounded-md w-fit shadow-md;
+    @apply transition-colors duration-300 ease-in-out;
+    @apply hover:bg-slate-800;
+    @apply disabled:opacity-60 disabled:cursor-not-allowed;
+  }
+
+  .icon-btn {
+    @apply bg-slate-900 text-white p-4 font-bold rounded-md w-fit shadow-md;
+    @apply transition-colors duration-300 ease-in-out;
+    @apply hover:bg-slate-800;
+    @apply disabled:opacity-60 disabled:cursor-not-allowed;
+  }
+
+  .nav-link {
+    @apply font-medium cursor-pointer transition-colors duration-300 ease-in-out;
+    @apply hover:text-slate-800;
+    @apply after:bg-slate-900 after:block after:w-0 after:h-[2px] after:content-[''] after:transition-all after:duration-300 after:ease-in-out;
+    @apply hover:after:w-full;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply px-4 sm:px-6 md:px-8 lg:px-12 max-w-[1600px] mx-auto;
+  }
+
+  .animate-to-color {
+    animation: toColor 2s;
+  }
+
+  @keyframes toColor {
+    0%    { filter: grayscale(100%); }
+    25%   { filter: grayscale(75%); }
+    50%   { filter: grayscale(50%); }
+    75%   { filter: grayscale(25%); }
+    100%  { filter: grayscale(0%); }
+  }
+}
+
+@layer base {
+  html {
+    @apply font-inter text-slate-900 bg-white accent-slate-900 scroll-smooth;
+  }
+
+  h1, .head-1 {
+    @apply font-bold text-[32px] sm:text-[42px] md:text-[48px] leading-[125%];
+  }
+
+  h2, .head-2 {
+    @apply font-bold text-[27px] sm:text-[32px] md:text-[36px] leading-[125%];
+  }
+
+  h3, .head-3 {
+    @apply font-bold text-[22px] sm:text-[24px] md:text-[28px] leading-[145%];
+  }
+
+  .subtitle {
+    @apply font-normal text-[18px] leading-[20px] text-primary tracking-[1.5px];
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('@/assets/fonts/Inter.ttf')
+  }
+}
