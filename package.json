@@ -8,12 +8,14 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
+    "prod": "nuxt build && nuxt start",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@nuxt/eslint": "^0.3.13",
     "@nuxt/image": "^1.7.0",
+    "@nuxtjs/seo": "^2.0.0-rc.10",
     "@nuxtjs/tailwindcss": "^6.12.0",
     "imagekit": "^5.0.1",
     "nuxt": "^3.11.2",

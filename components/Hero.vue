@@ -7,16 +7,19 @@
       class="w-full h-[400px] object-cover grayscale"
     />
     <div class="absolute inset-0 bg-black/20">
-      <div class="container flex flex-col h-full justify-center text-white">
-        <h1 data-aos="fade-right">
-          Lorum ipsum dolor
+      <div class="container flex flex-col gap-6 h-full justify-center text-white">
+        <h1
+          class="max-w-[500px]"
+          data-aos="fade-right"
+        >
+          Voor al uw klussen, groot en klein!
         </h1>
         <p
           class="max-w-[400px] text-pretty"
           data-aos="fade-right"
           data-aos-delay="100"
         >
-          Lorum ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Bij Memico staan wij klaar voor al uw klus- en renovatiewerken. Of het nu gaat om kleine reparaties of grote verbouwingen, wij leveren altijd kwaliteit en betrouwbaarheid. Uw tevredenheid is onze prioriteit!
         </p>
       </div>
     </div>

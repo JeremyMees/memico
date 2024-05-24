@@ -26,12 +26,14 @@
           </span>
           <a
             href="tel:+0472112720"
+            aria-label="Telefoonnummer"
             class="text-slate-900 hover:text-slate-800 transition-colors duration-300 ease-in-out underline"
           >
             0472112720
           </a>
           <a
             href="mailto:jeremy@mees.com"
+            aria-label="Email"
             class="text-slate-900 hover:text-slate-800 transition-colors duration-300 ease-in-out underline"
           >
             jeremy@mees.com
@@ -50,6 +52,7 @@
           <a
             href="/"
             target="_blank"
+            aria-label="Instagram"
             class="text-4xl text-slate-900 hover:text-slate-800 transition-colors duration-300 ease-in-out"
           >
             <Icon name="ri:instagram-fill" />
@@ -57,6 +60,7 @@
           <a
             href="/"
             target="_blank"
+            aria-label="Facebook"
             class="text-4xl text-slate-900 hover:text-slate-800 transition-colors duration-300 ease-in-out"
           >
             <Icon name="ri:facebook-fill" />

@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     'nuxt-swiper',
     'nuxt-aos',
+    '@nuxtjs/seo',
   ],
   router: {
     options: { scrollBehaviorType: 'smooth' },
@@ -33,6 +34,12 @@ export default defineNuxtConfig({
     quality: 90,
     provider: 'imagekit',
     imagekit: { baseURL: 'https://ik.imagekit.io/c2es1qasw/Memico' },
+  },
+  site: {
+    url: 'https://memico.be',
+    name: 'Memico',
+    description: 'Voor al uw klussen, groot en klein!',
+    defaultLocale: 'nl',
   },
   devtools: { enabled: true },
 })

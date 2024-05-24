@@ -40,6 +40,7 @@ if (import.meta.client) {
           <li>
             <a
               href="#realisaties"
+              aria-label="Realisaties"
               class="nav-link"
             >
               Realisaties
@@ -48,6 +49,7 @@ if (import.meta.client) {
           <li>
             <a
               href="#reviews"
+              aria-label="Reviews"
               class="nav-link"
             >
               Reviews
@@ -57,6 +59,7 @@ if (import.meta.client) {
 
         <a
           href="#contact"
+          aria-label="Contact"
           class="btn w-full hidden sm:block"
           @click="mobileNavOpen = false"
         >
@@ -65,6 +68,7 @@ if (import.meta.client) {
 
         <button
           class="md:hidden icon-btn"
+          aria-label="Contact"
           @click="mobileNavOpen = !mobileNavOpen"
         >
           <Icon
@@ -83,6 +87,7 @@ if (import.meta.client) {
         <div class="container flex flex-col gap-2 py-4">
           <a
             href="#realisaties"
+            aria-label="Realisaties"
             class="nav-link"
             @click="mobileNavOpen = false"
           >
@@ -90,6 +95,7 @@ if (import.meta.client) {
           </a>
           <a
             href="#reviews"
+            aria-label="Reviews"
             class="nav-link"
             @click="mobileNavOpen = false"
           >
@@ -97,6 +103,7 @@ if (import.meta.client) {
           </a>
           <a
             href="#contact"
+            aria-label="Contact"
             class="btn w-full text-center sm:hidden mt-4"
             @click="mobileNavOpen = false"
           >
