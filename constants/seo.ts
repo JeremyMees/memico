@@ -1,6 +1,6 @@
 const name = 'MEMICO'
 const url = 'https://memico.be'
-const description = 'Voor al uw klussen, groot en klein!'
+const description = 'Voor al uw klussen, groot en klein! Ons ervaren team staat klaar voor alles, van kleine reparaties tot grootschalige renovaties. Kwaliteit verzekerd!'
 const logo = `${url}/logo.png`
 
 export default {
