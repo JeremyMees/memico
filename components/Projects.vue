@@ -49,6 +49,7 @@ whenever(sliderVisible, () => {
 <style>
 .swiper-button-prev, .swiper-button-next {
   --swiper-navigation-size: 20px;
+  --swiper-navigation-color: #fff;
 
   @apply bg-slate-900 text-white p-4 font-bold rounded-md w-fit  py-6 px-5 shadow-md;
 }
