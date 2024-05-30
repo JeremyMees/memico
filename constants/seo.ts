@@ -6,7 +6,7 @@ const logo = `${url}/logo.png`
 export default {
   schema: {
     organization: { name, url, logo },
-    website: { name, url, description, defaultLocale: 'en' },
+    website: { name, url, description, defaultLocale: 'nl' },
     modules: [
       {
         '@context': 'https://schema.org/',
