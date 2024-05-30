@@ -8,8 +8,7 @@
         data-aos="fade-right"
         data-aos-delay="100"
       >
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum quod eligendi dolore ipsa, amet officia dicta earum reprehenderit inventore incidunt fugit ab expedita aut, nihil eveniet voluptas nulla aspernatur ipsum.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias ipsam exercitationem harum, expedita tempora quae atque sunt in sed! Voluptatem a, vero aliquam reiciendis nostrum delectus atque assumenda cumque dolorum.
+        Ons klantgerichte bouwbedrijf specialiseert zich in hoogwaardige funderingswerken voor zowel residentiële als commerciële projecten. Wij bieden op maat gemaakte oplossingen die perfect aansluiten bij de wensen en behoeften van onze klanten, met een focus op kwaliteit en betrouwbaarheid. Met een team van ervaren vakmensen en geavanceerde technologieën zorgen wij voor een stabiele en duurzame basis voor uw bouwproject, altijd met oog voor detail en klanttevredenheid.
       </p>
     </div>
     <div

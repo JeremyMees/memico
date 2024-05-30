@@ -19,24 +19,28 @@
         </p>
         <div class="flex flex-col">
           <span>
-            Motstraat 20,
-          </span>
-          <span>
-            3500 Hasselt
+            3583 Paal
           </span>
           <a
-            href="tel:+0472112720"
+            href="tel:+0494473580"
             aria-label="Telefoonnummer"
             class="text-slate-900 hover:text-slate-800 transition-colors duration-300 ease-in-out underline"
           >
-            0472112720
+            Michael 0494473580
           </a>
           <a
-            href="mailto:jeremy@mees.com"
+            href="tel:+0456114736"
+            aria-label="Telefoonnummer"
+            class="text-slate-900 hover:text-slate-800 transition-colors duration-300 ease-in-out underline"
+          >
+            Cas 0456114736
+          </a>
+          <a
+            href="mailto:info@memico.be"
             aria-label="Email"
             class="text-slate-900 hover:text-slate-800 transition-colors duration-300 ease-in-out underline"
           >
-            jeremy@mees.com
+            info@memico.be
           </a>
         </div>
       </div>
@@ -46,26 +50,11 @@
         data-aos-delay="200"
       >
         <p class="font-bold mb-3">
-          Volg ons op
+          BTW nummer
         </p>
-        <div class="flex flex-wrap gap-4">
-          <a
-            href="/"
-            target="_blank"
-            aria-label="Instagram"
-            class="text-4xl text-slate-900 hover:text-slate-800 transition-colors duration-300 ease-in-out"
-          >
-            <Icon name="ri:instagram-fill" />
-          </a>
-          <a
-            href="/"
-            target="_blank"
-            aria-label="Facebook"
-            class="text-4xl text-slate-900 hover:text-slate-800 transition-colors duration-300 ease-in-out"
-          >
-            <Icon name="ri:facebook-fill" />
-          </a>
-        </div>
+        <span>
+          BE 1007.139.320
+        </span>
       </div>
     </div>
 
