@@ -6,7 +6,7 @@
       <Services />
       <Projects />
       <ImageText />
-      <Reviews />
+      <!-- <Reviews /> -->
     </main>
     <Footer />
   </div>
