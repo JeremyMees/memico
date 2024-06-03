@@ -41,5 +41,8 @@ export default defineNuxtConfig({
     description: 'Voor al uw klussen, groot en klein!',
     defaultLocale: 'nl',
   },
+  sitemap: {
+    urls: ['https://memico.be'],
+  },
   devtools: { enabled: true },
 })
